@@ -1,0 +1,25 @@
+button.button {
+  background: #e3562a;
+  color: white;
+  height: 55px;
+  border-radius: 16px;
+  padding: 16px 32px;
+  border: 0;
+  margin: 15px 0px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  min-width: 300px;
+  width: 93vw;
+  font-family: 'Archivo';
+  font-weight: 300;
+}
+
+button.button:focus {
+  outline:none
+}
+
+button.invert {
+  background: white;
+  color:#e3562a;
+  border: 1px solid #e3562a;
+}

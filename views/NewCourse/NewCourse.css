@@ -1,0 +1,83 @@
+.newCourseHeader {
+	display: flex;
+	justify-content: space-between;
+	width: 93vw;
+}
+
+.bodyNewCourse {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 7% 3%;
+}
+
+.textCabecera {
+	display: flex;
+	justify-content: left;
+	width: 93vw;
+	margin-bottom: 20px;
+}
+
+.formNewCourse {
+	display: flex;
+	flex-direction: column;
+	width: 93vw;
+}
+
+.divPriceAndTime {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.inputForm {
+	padding: 5px 16px;
+}
+
+.inputForm:focus, .inputFormPq:focus, .selectForm:focus {
+	outline: none;
+}
+
+.inputFormPq {
+	line-height: 2;
+	border-radius: 14px;
+	border: solid 1px rgb(211 211 211);
+	padding: 5px 16px;
+	margin: 10px 0 20px 0;
+	width: 50vw;
+	color: #78746D;
+	letter-spacing: 0.4px;
+}
+
+.selectForm {
+	border-radius: 14px;
+	border: solid 1px rgb(211 211 211);
+	padding: 10px 12px;
+	margin: 10px 0 20px 0;
+	font-family: Heebo;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	text-align: left;
+	color: #666666;
+}
+
+select.selectForm option {
+	width: 50px;
+	font-family: Heebo;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	text-align: left;
+	color: #666666;
+}
+
+.divToggle {
+	margin: 11px 0 23px 38px;
+}
+
+form.formNewCourse textarea.textarea {
+	font-size: 15px;
+	letter-spacing: 0.4px;
+	margin: 0 0 7% 0;
+}

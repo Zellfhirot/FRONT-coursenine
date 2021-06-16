@@ -1,0 +1,43 @@
+.reviewHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 2% 0 4%;
+}
+.formReview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+    padding: 0 4%;
+}
+.MuiRating-label {
+    cursor: inherit;
+    margin-right: 5px;
+}
+.MuiRating-icon {
+    font-size: 2.8rem;
+}
+.textarea {
+    height: 30vh;
+    border: 1px solid #cccccc;
+    border-radius: 5%;
+    padding: 20px;
+    font-family: Archivo;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #78746D;
+    resize: none;
+}
+.textarea:focus {
+    outline: none;
+}
+.character255{
+    font-family: Heebo;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #CCCCCC;
+}

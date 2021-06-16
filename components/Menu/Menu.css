@@ -1,0 +1,28 @@
+.menu-desplegable {
+  position: absolute;
+  z-index: 999;
+  height: 100vh;
+  width: 100%;
+  background-color: #F4AF9B;
+  text-align: center;
+  left: -100%;
+  transition: left 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #FFF
+}
+
+.menu-desplegable.true {
+  left: 0;
+}
+
+div.menuIcons {
+  display: flex;
+  justify-content: space-between;
+  padding: 7% 3%;
+}
+
+div.menuContent {
+  height: 70%;
+}

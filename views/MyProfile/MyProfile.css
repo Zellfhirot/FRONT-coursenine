@@ -1,0 +1,47 @@
+.newMyProfileHeader {
+	display: flex;
+	justify-content: space-between;
+	width: 93vw;
+}
+
+.bodyMyProfile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 7% 3%;
+	height: 90vh;
+}
+
+.textCabecera {
+	display: flex;
+	justify-content: left;
+	width: 93vw;
+	margin-bottom: 20px;
+}
+
+.formMyProfile {
+	display: flex;
+	flex-direction: column;
+	width: 93vw;
+	height: 80vh;
+}
+
+.inputForm {
+	line-height: 2;
+	border-radius: 14px;
+	border: solid 1px rgb(211 211 211);
+	padding: 8px 16px;
+	margin: 10px 0 20px 0;
+	color: #78746D;
+	letter-spacing: 0.4px;
+}
+
+.inputFormPass {
+	line-height: 2;
+	border-radius: 14px;
+	border: solid 1px rgb(211 211 211);
+	padding: 8px 16px;
+	margin: 10px 0 20px 0;
+	width: 93vw;
+}

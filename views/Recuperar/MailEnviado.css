@@ -1,0 +1,12 @@
+.bodyRecuPass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.imgRecuPass {
+    width: 95vw;
+    align-items: center;
+    margin-bottom: -14px;
+}

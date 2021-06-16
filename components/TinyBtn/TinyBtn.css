@@ -1,0 +1,50 @@
+h6.tinyBtn {
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 0 3%;
+  cursor: pointer;
+  font-family: Heebo;
+  font-weight: normal;
+  font-size: 10px;
+  /* line-height: 20px; */
+}
+
+h6.tinyBtn.green {
+  background-color: rgba(91, 160, 146, 0.9);
+}
+
+h6.tinyBtn.orange {
+  background-color: rgba(227, 86, 42, 0.9);
+}
+
+/* h6.tinyBtn.orange.list {
+  margin: 0;
+  width: 95px;
+}
+
+h6.tinyBtn.green.list {
+  width: 40px;
+} */
+
+div.tinyMedia {
+  background-color: #79B5EC;
+  font-family: Archivo;
+  width: max-content;
+  border-radius: 5px;
+  padding: 5px;
+  height: 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+h6.tinyMedia {
+  margin: 0;
+  color: white;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}

@@ -1,0 +1,29 @@
+input[type="radio"].userType {
+	display: none;
+}
+div.userType {
+	display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 93vw;
+}
+div.userType .label-radio {
+	width: 49.5%;
+}
+div.userType .docente {
+	border-radius: 15px 0 0 15px;
+}
+div.userType .estudiante {
+	border-radius: 0 15px 15px 0;
+}
+.label-radio {
+	background: #A6D5CB;
+	color: #fff;
+	padding: 10px 10px;
+	text-align: center;
+}
+input[type="radio"].userType:checked+.label-radio {
+	background: #5BA092;
+	color: #fff;
+}

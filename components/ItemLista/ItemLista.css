@@ -1,0 +1,70 @@
+div.listItem {
+  display: flex;
+  margin: 0 0 8% 0;
+  border: 1px solid #EBEBEB;
+  border-radius: 6px;
+}
+
+div.imgBox {
+  width: 35%;
+  margin: 0 2px;
+  display: flex;
+}
+
+div.listItem div.imgBox img.courseImg {
+  width: 100%;
+}
+
+div.courseInfo {
+  width: 64%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.courseTitle {
+  padding: 3% 0;
+}
+
+div.courseTitle>h4 {
+  margin: 0 0 0 13px;
+  font-weight: initial;
+  font-size: 14px;
+  color: #999999
+}
+
+div.courseSubInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  /* height: 45%; */
+  height: 35%;
+}
+
+div.courseSubInfo>h5 {
+  margin: 0;
+}
+
+div.courseSubInfo>h6 {
+  color: #5BA092;
+  margin: 0;
+  font-family: Archivo;
+}
+
+p.listaFecha {
+  color: #a7a7a7;
+  font-size: 8px;
+}
+
+@media screen and (min-width: 600px) {
+  div.courseTitle>h4 {
+    font-size: 18px;
+  }
+  div.courseSubInfo>h6 {
+    font-size: 14px
+  }
+  p.listaFecha {
+    font-size: 10px;
+  }
+}

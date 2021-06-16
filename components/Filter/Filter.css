@@ -1,0 +1,165 @@
+/* --------------DESPLEGABLE */
+
+.filtro-desplegable {
+  position: absolute;
+  z-index: 999;
+  height: 100vh;
+  width: 100%;
+  background-color: #f7f7f7;
+  text-align: left;
+  left: -100%;
+  transition: left 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filtro-desplegable.true {
+  left: 0;
+}
+
+/* --------------TOGGLE BUTTON */
+
+.wrg-toggle-container {
+  width: 38px;
+  height: 8px;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+  background: #5ba092;
+  margin-right: 12px;
+}
+
+.wrg-toggle--checked .wrg-toggle-check {
+  opacity: 1;
+}
+
+.wrg-toggle--checked .wrg-toggle-uncheck {
+  opacity: 0;
+  background: #5ba092;
+}
+
+.wrg-toggle--checked .wrg-toggle-circle {
+  left: 27px;
+  background: #5ba092;
+}
+
+.wrg-toggle-circle {
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  position: absolute;
+  top: -6px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #4d4d4d;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: all 1s ease;
+  background: #5ba092;
+  border: 4px solid #cccccc;
+}
+
+.wrg-toggle-input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+
+/* --------------PANTALLA */
+
+.cabeceraBusqueda {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 25px 0 0 0;
+  align-items: baseline;
+}
+
+.filtrar {
+  width: 90vw;
+  height: 207px;
+  background: #f1f1f1;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 15px 0px;
+  padding-left: 25px;
+  line-height: 2.1;
+}
+
+.labelBuscador {
+  margin-left: 10px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: #666666;
+}
+
+.wrg-toggle {
+  touch-action: pan-x;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrg-toggle-check, .wrg-toggle-uncheck {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  transition: opacity 0.25s ease;
+}
+
+.wrg-toggle-check {
+  left: 8px;
+}
+
+.wrg-toggle-uncheck {
+  opacity: 1;
+  right: 10px;
+}
+
+​.wrg-toggle-uncheck span, .wrg-toggle-check span {
+  align-items: center;
+  display: flex;
+  height: 10px;
+  justify-content: center;
+  position: relative;
+  width: 10px;
+}
+
+input[type=radio] {
+  border: 1px solid #999999;
+  width: 24px;
+  height: 24px;
+  padding: 0.5em;
+  -webkit-appearance: none;
+}
+
+input[type=radio]:checked {
+  background-color: #E3562A;
+  background-size: 15px 15px;
+}
+
+input[type=radio]:focus {
+  outline-color: transparent;
+}

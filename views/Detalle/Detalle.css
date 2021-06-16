@@ -1,0 +1,115 @@
+div.imgDetail>img.arrowImg, div.imgDetail>img.heartImg {
+  position: absolute;
+  z-index: 999;
+  margin: 3%;
+}
+
+div.imgDetail>img.heartImg {
+  right: 1%;
+}
+
+div.infoBox {
+  width: 100%;
+  z-index: 999;
+  transform: translate(0px, 175px);
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.subInfo {
+  display: flex;
+  width: 50%;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+img.courseImg.detail {
+  width: 100vw;
+  border-radius: 0%;
+}
+
+div.courseDescription {
+  padding: 0 5%;
+}
+
+div.courseDescription p {
+  font-family: Heebo;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  color: #999999;
+}
+
+div.jobsInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 4% 9%;
+  background-color: rgba(227, 86, 42, 0.9);
+  color: whitesmoke;
+  box-sizing: border-box;
+}
+
+h3.whiteH3 {
+  color: whitesmoke;
+}
+
+div.extraInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 5% 10%;
+}
+
+div.infoImg {
+  display: flex;
+  width: 100%;
+}
+
+div.infoImg>img {
+  width: 30px;
+  margin: 4%;
+}
+
+div.buttonBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.reviewBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1% 0 5% 0;
+}
+
+div.reviewBox>div.mediaStar>h5 {
+  font-size: 40px;
+}
+
+div.reviewBox>div.mediaStar>img {
+  width: 40px;
+}
+
+/* ------------------------------------MEDIA QUERIES */
+
+@media screen and (max-width: 370px) {
+  div.infoBox {
+    transform: translate(0px, 144px);
+  }
+}
+
+@media screen and (min-width: 450px) {
+  div.infoBox {
+    transform: translate(0px, 219px);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  div.infoBox {
+    transform: translate(0px, 300px);
+  }
+}

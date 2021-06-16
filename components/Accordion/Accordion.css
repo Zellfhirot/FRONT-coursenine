@@ -1,0 +1,44 @@
+.MuiAccordionSummary-content {
+	display: flex;
+	justify-content: center;
+}
+
+.MuiTypography-root.makeStyles-heading-2.MuiTypography-body1 {
+	font-family: 'Archivo';
+	text-align: center;
+	justify-content: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	color: #1F83E0;
+}
+
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.MuiTypography-root.MuiTypography-body1 {
+	font-family: 'Archivo';
+	text-align: center;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: #999999;
+	width: 93vw;
+	line-height: 18px;
+}
+
+div.reviewAcc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.reviewAcc>h5 {
+	font-size: 20px;
+}
+
+div.reviewAcc>img {
+	width: 20px;
+}

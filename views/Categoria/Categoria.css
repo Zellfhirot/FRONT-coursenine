@@ -1,0 +1,14 @@
+div.courseList {
+  padding: 0 1%;
+}
+
+div.courseList.true {
+  display: none;
+}
+
+div.listHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  align-items: baseline;
+}

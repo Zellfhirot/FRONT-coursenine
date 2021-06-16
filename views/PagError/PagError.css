@@ -1,0 +1,18 @@
+.bodyError {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.imgError {
+  width: 95vw;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.h2error {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  color: #5BA092;
+}

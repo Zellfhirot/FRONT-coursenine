@@ -1,0 +1,19 @@
+.iconOk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 90vw;
+}
+.checkOk{
+    width: 300px;
+}
+.MuiCircularProgress-svg{
+    color: #E3562A;
+}
+.MuiCircularProgress-indeterminate{
+    width: 75px;
+    height: 75px;
+    margin: -20px 0 10px 0;
+}
